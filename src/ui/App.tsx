@@ -422,7 +422,7 @@ function RequestForm() {
       onSubmit={(event) => {
         event.preventDefault();
         const title = `${kind}: ${entry || 'indigenous-australia'}`;
-        const url = `https://github.com/LewisAGI/indigenous-australia/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(message)}`;
+        const url = `https://github.com/Lewis-AI-Collab/indigenous-australia/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(message)}`;
         window.open(url, '_blank', 'noopener,noreferrer');
       }}
     >
